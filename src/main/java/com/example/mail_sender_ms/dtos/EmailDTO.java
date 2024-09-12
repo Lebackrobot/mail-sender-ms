@@ -12,5 +12,5 @@ public record EmailDTO(
         String subject,
 
         @NotNull
-        String description
+        String message
 ) {}
