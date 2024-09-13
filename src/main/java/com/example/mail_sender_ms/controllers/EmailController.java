@@ -35,7 +35,7 @@ public class EmailController {
 
             return ResponseEntity.status(HttpStatus.OK).body(Map.of(
                     "success", true,
-                    "info", "...",
+                    "info", Map.of("email", emailModel),
                     "message", "Email sent."
             ));
         }
